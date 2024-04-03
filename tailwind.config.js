@@ -16,11 +16,13 @@ module.exports = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
-        "xs": {'max': '766px', 'min': '200px'},
-        "sm": {'max': '767px'},
       },
     },
     extend: {
+      screens: {
+        "xs": {'max': '766px', 'min': '200px'},
+        "smallScreen": {'max': '767px'},
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },

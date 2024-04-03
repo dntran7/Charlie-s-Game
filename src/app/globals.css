@@ -81,14 +81,40 @@
 .header-center {
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 2rem;
   background-image: linear-gradient(45deg, #cff6f9 , #002e76);
   background-size: 100%;
   background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
-}
+}         
+.btn-grad {
+   text-align: center;
+   background-image: linear-gradient(to right, #6fa3ce 0%, #98c1d1  51%, #346eb6  100%);
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+ }
 
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.header-bottom-padding {
+  padding-bottom: 2rem;
+}
+.welcome-desc {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  -webkit-text-fill-color: #5f8da9; 
+  -moz-text-fill-color: #4a6d82;
+}
 .flippedC:focus {
   transform: rotateY(360deg);
   position: relative;
