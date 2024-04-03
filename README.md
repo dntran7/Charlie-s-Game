@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+Web app is deployed through firebase here: [`https://diepntran-a02ec.web.app/`] (https://diepntran-a02ec.web.app/).
 ## Getting Started
 
 First, run the development server:
