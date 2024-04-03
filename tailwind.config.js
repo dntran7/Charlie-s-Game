@@ -16,6 +16,8 @@ module.exports = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
+        "xs": {'max': '766px', 'min': '200px'},
+        "sm": {'max': '767px'},
       },
     },
     extend: {

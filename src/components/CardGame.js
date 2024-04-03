@@ -61,7 +61,7 @@ function Game(){
     }
 
     return (
-    <div className="grid 2xl:grid-cols-4 grid-flow-row gap-5">
+    <div className="grid grid-cols-4 grid-flow-row gap-5">
          {cardObjs.map(( cardObj, index ) => {
             return (
           <Card key={index} cardObj={cardObj} id={index} handleClick={handleClick} />
